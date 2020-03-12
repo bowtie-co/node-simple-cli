@@ -1,7 +1,7 @@
 {
-  "name": "cmr1-cli",
+  "name": "@bowtie/simple-cli",
   "version": "0.1.16",
-  "description": "Generic CLI helper",
+  "description": "Bowtie Simple CLI - Build your own CLI, simply",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -27,9 +27,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cmr1/node-cli.git"
+    "url": "https://github.com/bowtie-co/node-simple-cli.git"
   },
   "dependencies": {
+    "@bowtie/simple-log": "file:../node-simple-log",
     "cmr1-logger": "^0.1.2",
     "colors": "^1.1.2",
     "command-line-args": "^3.0.5",
@@ -39,7 +40,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "jsdoc": "^3.6.2",
+    "jsdoc": "^3.6.3",
     "mocha": "^5.2.0",
     "nyc": "^14.1.1",
     "sinon": "^1.17.7",

@@ -1,15 +1,15 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/88c726978d8f6bf2e2f1/maintainability)](https://codeclimate.com/github/cmr1/node-cli/maintainability)
+<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/88c726978d8f6bf2e2f1/maintainability)](https://codeclimate.com/github/cmr1/node-cli/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/88c726978d8f6bf2e2f1/test_coverage)](https://codeclimate.com/github/cmr1/node-cli/test_coverage)
 
 [![npm version](https://badge.fury.io/js/cmr1-cli.svg)](https://www.npmjs.com/package/cmr1-cli)
-[![build status](https://travis-ci.org/cmr1/node-cli.svg?branch=master)](https://travis-ci.org/cmr1/node-cli)
+[![build status](https://travis-ci.org/cmr1/node-cli.svg?branch=master)](https://travis-ci.org/cmr1/node-cli) -->
 
 # cli-node
 NodeJS CLI module
 
 ## Example: (from `scratch.js`)
 ```javascript
-const Cmr1Cli = require('cmr1-cli');
+const SimpleCli = require('cmr1-cli');
 
 const additionalOptions = [
   { 
@@ -30,7 +30,7 @@ const additionalOptions = [
   }
 ];
 
-const myCli = new Cmr1Cli({
+const myCli = new SimpleCli({
   name: 'My CLI script name',
   description: 'A description of this script',
   helpHeader: 'Available Options',

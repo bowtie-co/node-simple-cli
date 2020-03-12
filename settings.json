@@ -33,6 +33,9 @@
       "stamp": true,
       "prefix": "SUCCESS:",
       "color": "green"
+    },
+    "replace": {
+      "color": "yellow"
     }
   },
   "optionDefinitions": [
