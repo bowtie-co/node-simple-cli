@@ -100,12 +100,12 @@ const myCli = new SimpleCli({
 const MAX_WIDTH = process.stdout.columns || 100
 const MIN_FACTOR = 1
 const MIN_PADDING = 15
-const MIN_DURATION = 100
+const MIN_DURATION = 25
 
 let width = myCli.options.width || parseInt(Math.random() * 100)
 let padding = myCli.options.padding || (parseInt(Math.random() * 10) + MIN_PADDING)
 let factor = myCli.options.factor || (parseInt(Math.random() * 15) + MIN_FACTOR)
-let duration = myCli.options.duration || (parseInt(Math.random() * 2000) + MIN_DURATION)
+let duration = myCli.options.duration || (parseInt(Math.random() * 750) + MIN_DURATION)
 
 if (padding < MIN_PADDING) padding = MIN_PADDING
 if (width > (MAX_WIDTH - padding)) width = (MAX_WIDTH - padding)
